@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+        #fed{
+            width:70;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="mailto:danderichards360@gmail.com" >
+        <fieldset id="fed">
+            <table cellspacing="30" >
+                <tr>
+                    <td>
+                        <label>Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" placeholder="name" size="50"/>
+                    </td>
+                </tr>
+                    <tr>
+                        <td>
+                            <label>enter your email address :</label>
+                        </td>
+                        <td>
+                        <input type="email" placeholder="email address" size="50"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>mobile no :</label>
+                        </td>
+                        <td>
+                            <input type="tel" pattern="(0-9){12}" name="mobileNo" placeholder="tel" value="+91" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>gender :</label>
+                        </td>
+                        <td>
+                            <label >male</label>
+                            <input type="radio" name="gender" value="male" placeholder="male"/>
+                            <label>female</label>
+                            <input type="radio" name="gender" value="female" placeholder="male"/>
+                        </td>
+                    </tr>
+                    <br/>
+                    
+            </table>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" align="center">submit</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
