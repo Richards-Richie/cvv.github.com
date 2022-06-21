@@ -1,0 +1,13 @@
+.img{
+    height: 16vh;
+    width:7vw;
+}
+.name{
+    font-size :3vw;
+}
+body{
+    background-color: rgb(249, 178, 178);
+}
+p{
+    size: 10vw;
+}

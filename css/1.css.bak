@@ -1,0 +1,12 @@
+#img{
+    height: 15vh;
+}
+#name{
+    width: 10vw;
+}
+body{
+    background-color: rgb(249, 178, 178)
+}
+p{
+    size: vw;
+}
